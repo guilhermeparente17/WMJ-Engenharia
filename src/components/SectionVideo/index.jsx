@@ -1,5 +1,5 @@
 import React from 'react'
-//import Video from '../../Videos/video2.mp4'
+import Video from '../../Videos/Video.mp4'
 import {
     SectionVideoContainer,
     SectionVideoBG,
@@ -15,7 +15,7 @@ const SectionVideo = () => {
         <div>
             <SectionVideoContainer>
                 <SectionVideoBG>
-                    <VideoBG autoPlay loop muted type='video/mp4' />
+                    <VideoBG autoPlay loop muted src={Video} type='video/mp4' />
                 </SectionVideoBG>
                 <SideVideoContainer>
                     <SectionVideoH1>Meet the Future of <SectionVideoH1 color="#25C908">Engineering</SectionVideoH1></SectionVideoH1>
