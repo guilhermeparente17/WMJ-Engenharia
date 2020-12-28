@@ -7,7 +7,7 @@ export const SectionVideoContainer = styled.div`
     color: #FFF;
     justify-content:center;
     padding: 0 30px;
-    height: 550px;
+    height: 600px;
     position: relative;
     z-index:1;
 

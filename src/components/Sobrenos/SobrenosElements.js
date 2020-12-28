@@ -6,7 +6,7 @@ export const SobrenosContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 40px;
-    background: #000;
+    background: #fff;
     width: 100%;
     height: 100%;
 
@@ -16,10 +16,11 @@ export const SobrenosContainer = styled.div`
 `
 
 export const Imagem = styled.img`
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     margin-left: 2rem;
     padding: 20px;
+    border-radius: 15em;
 
     @media screen and (max-width: 740px){
         width: 300px;
@@ -32,27 +33,35 @@ export const SobrenosContent = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 8em;
+
+    @media screen and (max-width: 740px){
+        margin-left: 0px;
+    }
     
 `
 
 export const Parag = styled.p`
-    color: #fff;
+    color: #008C00;
     font-size: 25px;
+    font-weight: bold;
 
     @media screen and (max-width: 740px){
-        font-size: 15px;
+        font-size: 25px;
     }
 `
 
 export const SobrenosH1 = styled.h1`
     text-align: center;
-    color: #fff;
-    margin:20px;
+    color: #008000;
+    margin-bottom:50px;
+    font-family: 'Redressed', cursive;
+    font-size: 100px;
 `
 
 export const SobrenosButtom = styled(LinkS)`
     padding:14px 18px;
-    background: #005900;
+    background: #008000;
     border-radius:24px;
     text-align: center;
     color: #fff;
@@ -70,6 +79,7 @@ export const SobrenosButtom = styled(LinkS)`
 
     @media screen and (max-width: 840px){
         font-size: 0.9rem;
+        width: 35%;
     }
 `
 
