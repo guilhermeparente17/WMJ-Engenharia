@@ -19,11 +19,11 @@ const index = ({ isOpen, toggle }) => {
                 </Icon>
                 <SidebarWrapper>
                     <SidebarMenu>
-                        <SidebarLink to="/"><NavbarImage src="https://i.ibb.co/0DXg0CV/logo1.png" /></SidebarLink>
+                        <SidebarLink to="/" onClick={toggle}><NavbarImage src="https://i.ibb.co/0DXg0CV/logo1.png" /></SidebarLink>
                         <SidebarLink to="/" onClick={toggle}>Serviços</SidebarLink>
                         <SidebarLink to="/" onClick={toggle}>Sobre nós</SidebarLink>
                         <SidebarLink to="/" onClick={toggle}>Contato</SidebarLink>
-                        <SidebarLink><SidebarRoute to="/">Faça um orçamento</SidebarRoute></SidebarLink>
+                        <SidebarLink><SidebarRoute to="/" onClick={toggle}>Faça um orçamento</SidebarRoute></SidebarLink>
                     </SidebarMenu>
                 </SidebarWrapper>
             </SidebarContainer>

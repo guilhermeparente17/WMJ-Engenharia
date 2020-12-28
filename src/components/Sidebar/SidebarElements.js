@@ -4,7 +4,7 @@ import { Link as LinkS} from 'react-scroll'
 export const SidebarContainer = styled.div`
     display: grid;
     align-items: center;
-    background: rgba(0,0,0,0.9);
+    background: rgba(0,0,0,1);
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -47,6 +47,7 @@ export const SidebarLink = styled(LinkS)`
     justify-content: center;
     transition: 0.2s ease-in-out;
     color: #fff;
+    font-size: 25px;
     cursor: pointer;
 
     &:hover{
@@ -64,6 +65,7 @@ export const SidebarRoute = styled(LinkS)`
     border-radius: 50px;
     background:#008000;
     white-space: nowrap;
+    margin-top: 70px;
     padding: 16px 22px;
     color: #FFF;
     font-size: 16px;
@@ -79,8 +81,9 @@ export const SidebarRoute = styled(LinkS)`
     }
 `
 export const NavbarImage = styled.img`
-    width: 60px;
-    height: 60px;
+    width: 110px;
+    height: 110px;
+    margin-bottom: 100px;
 `
 
 
