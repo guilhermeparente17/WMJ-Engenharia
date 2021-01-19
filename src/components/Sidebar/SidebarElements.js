@@ -81,9 +81,8 @@ export const SidebarRoute = styled(LinkS)`
     }
 `
 export const NavbarImage = styled.img`
-    width: 110px;
-    height: 110px;
-    margin-bottom: 100px;
+    width: 80px;
+    height: 80px;
 `
 
 

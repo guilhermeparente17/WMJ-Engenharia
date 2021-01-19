@@ -18,11 +18,11 @@ const SectionVideo = () => {
                     <VideoBG autoPlay loop muted src={Video} type='video/mp4' />
                 </SectionVideoBG>
                 <SideVideoContainer>
-                    <SectionVideoH1>Meet the Future of <SectionVideoH1 color="#25C908">Engineering</SectionVideoH1></SectionVideoH1>
+                    <SectionVideoH1>Conheça o futuro da<SectionVideoH1 color="#25C908">Engenharia</SectionVideoH1></SectionVideoH1>
                     <SideVideoP>
-                        Find out more about my services
-                        or consult a personalized 
-                        quote you like!
+                        Saiba mais sobre meus serviços ou 
+                        consulte um orçamento personalizado 
+                        de sua preferência!
                     </SideVideoP>
                     <SobrenosButtom>
                         Entre em Contato

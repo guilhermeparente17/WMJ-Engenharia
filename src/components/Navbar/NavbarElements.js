@@ -56,6 +56,7 @@ display: none;
 @media screen and (max-width: 740px){
         display: block;
         color: #fff;
+        padding: 5px;
         font-size: 2.5rem;
         cursor: pointer;
     }
