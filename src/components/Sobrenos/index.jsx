@@ -13,7 +13,7 @@ const Sobrenos = () => {
             <Imagem src={imagem} />
             <SobrenosContent>
                 <SobrenosH1>
-                    Quem Somos
+                    Quem Somos teste
                 </SobrenosH1>
                 <Parag>
                 Somos uma organização que executa serviços dentro do mais alto padrão de qualidade, 
