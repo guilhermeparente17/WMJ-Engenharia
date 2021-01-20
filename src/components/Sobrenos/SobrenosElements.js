@@ -10,7 +10,7 @@ export const SobrenosContainer = styled.div`
     width: 100%;
     height: 100%;
 
-    @media screen and (max-width: 840px){
+    @media screen and (max-width: 1080px){
         flex-wrap: wrap;
     }
 `
@@ -19,13 +19,19 @@ export const Imagem = styled.img`
     width: 500px;
     height: 500px;
     margin-left: 2rem;
+    margin-right: 3rem;
     padding: 20px;
-    border-radius: 15em;
 
     @media screen and (max-width: 1215px){
+        width: 500px;
+        height: 600px;
+    }
+
+    @media screen and (max-width: 1080px){
         width: 300px;
         height: 300px;
     }
+
 `
 
 export const SobrenosContent = styled.div`
@@ -42,25 +48,29 @@ export const SobrenosContent = styled.div`
 `
 
 export const Parag = styled.p`
-    color: #008C00;
-    font-size: 25px;
+    //color: #008C00;
+    color: #000;
+    font-size: 20px;
     font-weight: bold;
-    font-family: sans-serif;
+    //font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', serif;
 
     @media screen and (max-width: 1200px){
         font-size: 20px;
+        text-align:center;
     }
 `
 
 export const SobrenosH1 = styled.h1`
     text-align: center;
     color: #008000;
-    margin-bottom:50px;
+    margin-bottom:10px;
     font-family: 'Redressed', cursive;
-    font-size: 80px;
+    font-size: 50px;
 
     @media screen and (max-width: 1200px){
         font-size: 60px;
+        margin-top: 20px;
     }
 `
 
@@ -88,12 +98,12 @@ export const SobrenosButtom = styled(LinkS)`
     }
 `
 
-export const SobrenosH2 = styled.h1`
+export const SobrenosH2 = styled.h2`
     text-align: center;
-    color: #000;
+    color: #008000;
     margin-top: 30px;
     font-family: 'Redressed', cursive;
-    font-size: 40px;
+    font-size: 25px;
 
     @media screen and (max-width: 1200px){
         font-size: 30px;

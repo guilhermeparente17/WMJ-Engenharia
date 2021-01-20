@@ -1,10 +1,10 @@
 import React from 'react'
 import {
-    Imagem, Parag, SobrenosContainer, SobrenosH1, SobrenosContent, SobrenosButtom, SobrenosH2
+    Imagem, Parag, SobrenosContainer, SobrenosH1, SobrenosContent, SobrenosH2
 } from './SobrenosElements'
 
 //import enginner from '../../images/enginner2.svg'
-import imagem from "../../images/foto3/lampada.png"
+import imagem from "../../images/g197.png"
 
 const Sobrenos = () => {
     return (
@@ -50,10 +50,6 @@ const Sobrenos = () => {
                 <Parag>
                     Ética, segurança, valorização dos colaboradores, honestidade, planejamento, comprometimento, responsabilidade, transparência e foco no cliente.
                 </Parag>
-
-                <SobrenosButtom>
-                    Saiba mais
-                </SobrenosButtom>
 
             </SobrenosContent>
 
