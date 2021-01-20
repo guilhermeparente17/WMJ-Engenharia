@@ -70,7 +70,8 @@ export const NavbarItem = styled.li`
 
 export const Buttom = styled(LinkS)`
     padding:14px 18px;
-    background: #005900;
+    background: none;
+    border: 3px solid #005900;
     border-radius:24px;
     color: color;
     cursor: pointer;

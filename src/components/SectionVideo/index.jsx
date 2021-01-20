@@ -20,7 +20,7 @@ const SectionVideo = () => {
                 <SideVideoContainer>
                     <SectionVideoH1>Conheça o futuro da<SectionVideoH1 color="#25C908">Engenharia</SectionVideoH1></SectionVideoH1>
                     <SideVideoP>
-                        Saiba mais sobre meus serviços ou 
+                        Saiba mais sobre nossos serviços ou 
                         consulte um orçamento personalizado 
                         de sua preferência!
                     </SideVideoP>

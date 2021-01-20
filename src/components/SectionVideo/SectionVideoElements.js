@@ -90,7 +90,8 @@ export const SideVideoP = styled.p`
 export const SobrenosButtom = styled(LinkS)`
     margin-top: 50px;
     padding:14px 18px;
-    background: #005900;
+    background: none;
+    border: 3px solid #005900;
     border-radius:24px;
     color: color;
     cursor: pointer;
@@ -100,5 +101,10 @@ export const SobrenosButtom = styled(LinkS)`
     &:hover{
         transition: 0.4s ease-in-out;
         background: #008C00;
+    }
+
+    @media screen and (max-width: 760px){
+        background: #005900;
+        border: none;
     }
 `
